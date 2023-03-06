@@ -1,0 +1,19 @@
+.login-container {
+  display: flex;
+  height: 60vh;
+  width: 80%;
+  flex-direction: column;
+  background-color: #0d698b;
+  border-radius: 25px;
+  /* align-items: center; */
+  padding-left: 20px;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 1373px) {
+  .login-container {
+    height: 50vh;
+    width: 90%;
+    padding-bottom: 20px;
+  }
+}

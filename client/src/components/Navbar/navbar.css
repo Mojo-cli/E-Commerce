@@ -1,0 +1,28 @@
+.navbar-container {
+  display: flex;
+  flex-direction: row;
+  height: 80px;
+  width: 100%;
+  background-color: #F2F1E8;
+  position: sticky;
+  top: 0;
+}
+
+.left {
+  display: flex;
+  width: 80%;
+  padding: 10px 20px;
+  /* background-color: green; */
+}
+
+.left img {
+  height: 50px;
+  width: 170px;
+  cursor: pointer;
+}
+
+.right {
+  display: flex;
+  height: 100%;
+  width: 50%;
+}
