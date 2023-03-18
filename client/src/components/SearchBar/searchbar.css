@@ -1,0 +1,28 @@
+.searchbar-container {
+  display: flex;
+  /* background-color: red; */
+  min-width: 60%;
+  height: 70%;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.searchbar-container input {
+  width: 70%;
+  height: 50%;
+  outline: none;
+  border: 3px solid #e34234;
+  padding: 0px 20px;
+  border-radius: 16px;
+  caret-color: #e34234;
+}
+
+.search-btn {
+  border: none;
+  background-color: #e34234;
+  padding: 8px 20px;
+  border-radius: 16px;
+  margin-left: 10px;
+  color: #f2f1e8;
+  font-weight: 500;
+}

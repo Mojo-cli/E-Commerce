@@ -1,0 +1,60 @@
+.carousel-container {
+  position: relative;
+  overflow: hidden;
+  padding: 10px;
+  background-color: #f2f1e8;
+  margin-top: 10px;
+}
+
+.carousel-content-container {
+  display: flex;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  /* background-color: yellow; */
+  width: 100%;
+}
+
+.pre-btn,
+.post-btn {
+  border: none;
+  width: 60px;
+  height: 100%;
+  position: absolute;
+  display: flex;
+  top: 0;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+}
+.pre-btn {
+  left: 0;
+}
+
+.post-btn {
+  right: 0;
+}
+
+.pre-btn p,
+.post-btn p {
+  font-size: 28px;
+  background-color: white;
+  box-shadow: 0px 0px 10px 0.2px black;
+  border-radius: 10px;
+  width: 50px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 912px) {
+  .card-container {
+    height: 80px;
+  }
+
+  .pre-btn p,
+  .post-btn p {
+    height: 28px;
+    width: 28px;
+  }
+}
